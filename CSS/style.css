@@ -1,0 +1,283 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/*Flex*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid white;
+    background-color: rgb(235, 30, 42);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 10px;    
+    width: 100%;
+    position: fixed;
+   
+}
+
+header nav {
+    margin-top: 20px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    margin-right: 0px;
+}
+
+
+.noticias{
+    margin-right: 50px;
+    padding: 10px;
+    border-right: 3px solid white;
+    border-top: 3px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(22, 56, 86);    
+}
+
+.socios{
+    margin-right: 50px;
+    padding: 10px;
+    border-right: 3px solid white;
+    border-top: 3px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(22, 56, 86)
+}
+
+.basquet{
+    margin-right: 50px;
+    padding: 10px;
+    border-right: 3px solid white;
+    border-top: 3px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(22, 56, 86)
+}
+
+.indumentaria{
+    margin-right: 50px;
+    padding: 10px;
+    border-right: 3px solid white;
+    border-top: 3px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(22, 56, 86)
+}
+
+.entradas{
+    margin-right: 50px;
+    padding: 10px;
+    border-right: 3px solid white;
+    border-top: 3px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(22, 56, 86)
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    width: 50px;
+}
+
+main{
+    background-color: rgb(22, 56, 86);
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+
+.primeraparte{
+    display: flex;
+    border-bottom: 1px solid white;
+    padding-right: 50px;
+    padding-left: 50px;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    margin-bottom: 15px;
+    margin-left: 110px;   
+}
+
+.tabla{
+    margin-left: 100px;
+    margin-bottom: 30px;
+    border: 5px solid black;
+    height: 600px;
+}
+
+.video{
+    margin: 50px;
+    margin-top: 15px;
+    margin-left: 270px;
+    border: 5px solid black;
+}
+
+h2{
+    color: white;
+    margin-left: 300px;
+}
+
+p{
+    color: white;
+    width: 500px;
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 300px;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.miniaturas{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 500px 500px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.uno{
+    border: 1px solid white;
+}
+
+.uno img{
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.uno p{
+    font-size: medium;
+    margin: 0px;
+    margin-top: 50px;
+    width: 300px;
+}
+
+.dos{
+    grid-column: 2/4;
+    border: 1px solid white;
+}
+
+.dos img{
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.dos p{
+    font-size: medium;
+    margin-top: 50px;
+    margin: 0px;
+    margin-left: 100px;
+}
+
+.tres{
+    border: 1px solid white;
+}
+
+.tres img{
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.tres p{
+    margin: 0px;
+    width: 300px;
+}
+
+.cuatro{
+    border: 1px solid white;
+}
+
+.cuatro img{
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.cuatro p{
+    margin: 0px;
+    width: 300px;
+}
+
+.cinco{
+    border: 1px solid white;
+}
+
+.cinco img{
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.cinco p{
+    margin: 0px;
+    width: 300px;
+}
+
+footer{
+    background-color: rgb(235, 30, 42);
+    border-top: 4px solid white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 600;
+    list-style-type: none;
+    height: 100px;
+}
+
+.mapa{
+    width: 200px;
+    height: 100px;
+    margin-right: 50px; 
+}
+
+.CONTACTO{
+    font-size: 15px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    margin-top: 30px;
+}
+
+footer section{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.publicidad1{
+    margin: 20px;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.publicidad2{
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.publicidad3{
+    margin: 20px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+
+
+
+
