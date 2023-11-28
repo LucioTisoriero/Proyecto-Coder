@@ -97,13 +97,21 @@ main{
     background-color: rgb(22, 56, 86);
 }
 
-section{
+.principal{
+    display: flex;
+}
+
+.card-text{
+    color: black;
+    
+}
+
+.indumentaria{
     display: grid;   
     grid-template-columns: 500px 500px;
     grid-template-rows: 500px 500px 500px;
     column-gap: 10PX;
     row-gap: 10px;
-    margin-left: 270px;
 }
 
 .banner{

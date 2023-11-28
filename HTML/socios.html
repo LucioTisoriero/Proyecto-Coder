@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Socios</title>
 
+    <!--Link Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <!--CSS con archivo externo-->
     <link rel="stylesheet" href="/CSS/socios.css">
 
@@ -37,27 +40,57 @@
     </header>
 
     <main>
-        
-            <h1>Beneficios de los Socios</h1>
-            <p class="parrafo-1">No te pierdas la magia del Poli de Boedo. Asegurá tu lugar y disfrutá del básquet, el futsal, el vóley y mucho más. Además, si te abonás, te garantizás el canje automático en la Copa de la Liga para acceder a la popular. ¡Aprovechá los descuentos por pago de contado!
-                ¡Vos ya podés asegurarte un lugar en ese escenario tan singular! Sacá tu Abono 2023-2024 y disfrutá las noches del básquet, del futsal, del vóley y de tantas disciplinas que multiplican la gloria del Ciclón, elegido para entrenarse y jugar por estrellas del deporte y por diversas selecciones, escogido para múltiples eventos… Tu carnet de Abonado al Pando tendrá vigencia hasta el 31 de julio de 2024 y será válido para todos los eventos organizados por el Club en ese sitio diferente, único. Y algo más…
-                También tenés otro beneficio: con el Abono al Poli, te garantizás el canje automático para acceder a la tribuna popular en los partidos que el equipo de fútbol de Primera División juegue por la Copa de la Liga en el Bidegain. ¡Aprovechá, además, el importante descuento por pago de contado!</p>      
-        
-            <section class="seccion-1">
-            <img src="/IMAGENES/socios1.jpg" alt="Socios Beneficios" class="imagen1">
-        
-            
-             <!--Enlace absoluto-->
-             <nav>
-             <a href="https://sanlorenzo.com.ar/asociate"target="_blank" class="asociate">ASOCIATE</a>
-             <a href="https://ciclondebeneficios.com.ar/"target="_blank" class="beneficios">BENEFICIOS</a>
-            </nav>
-        </section>
+        <section class="seccion-1">
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/IMAGENES/Sociosmascotas.jpg" class="d-block w-100" alt="Socios San Lorenzo">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/IMAGENES/socios1.jpg" class="d-block w-100" alt="Socios San Lorenzo">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/IMAGENES/Sociosultima.jpg" class="d-block w-100" alt="Socios San Lorenzo">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+    </section>
+    
+    <div>
+        <p class="parrafo-1">No te pierdas la magia del Poli de Boedo. Asegurá tu lugar y disfrutá del básquet, el futsal, el vóley y mucho más. Además, si te abonás, te garantizás el canje automático en la Copa de la Liga para acceder a la popular. ¡Aprovechá los descuentos por pago de contado!
+            ¡Vos ya podés asegurarte un lugar en ese escenario tan singular! Sacá tu Abono 2023-2024 y disfrutá las noches del básquet, del futsal, del vóley y de tantas disciplinas que multiplican la gloria del Ciclón, elegido para entrenarse y jugar por estrellas del deporte y por diversas selecciones, escogido para múltiples eventos… Tu carnet de Abonado al Pando tendrá vigencia hasta el 31 de julio de 2024 y será válido para todos los eventos organizados por el Club en ese sitio diferente, único. Y algo más…
+            También tenés otro beneficio: con el Abono al Poli, te garantizás el canje automático para acceder a la tribuna popular en los partidos que el equipo de fútbol de Primera División juegue por la Copa de la Liga en el Bidegain. ¡Aprovechá, además, el importante descuento por pago de contado!</p>      
+     </div>
 
         <section class="seccion-2">
-            <p class="texto2">En este momento tan especial, San Lorenzo nos necesita a todos; y la mejor forma de mostrar tu sentimiento es asociándote.</p>
-
-            <img src="/IMAGENES/socios2.jpg" alt="socios-sanlorenzo" class="imagen2">          
+            <div class="uno">
+                <a href="https://sanlorenzo.com.ar/asociate"target="_blank" class="asociate">ASOCIATE</a>
+            </div>
+            <div class="dos">
+                <p class="texto2">En este momento tan especial, San Lorenzo nos necesita a todos; y la mejor forma de mostrar tu sentimiento es asociándote.</p>
+            </div>
+            <div class="tres">
+                <p>
+                    Los socios y las socias de San Lorenzo ya pueden acceder a las diferentes propuestas que ofrece nuestro main sponsor.</p>
+            </div>
+            <div class="cuatro">
+               <!--Enlace absoluto-->
+            <a href="https://ciclondebeneficios.com.ar/"target="_blank" class="beneficios">BENEFICIOS</a> 
+            </div>
          </section>
     
     </main>
@@ -70,7 +103,8 @@
 
     </footer>
 
-    
+     <!--screep de bootstrap-->
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     
     
 </body>
