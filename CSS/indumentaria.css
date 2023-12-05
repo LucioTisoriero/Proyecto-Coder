@@ -164,37 +164,37 @@ main div p:hover{
 }
 
 .titular1{
-    background-image: url(/IMAGENES/titular1.webp);
+    background-image: url(../IMAGENES/titular1.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .titular2{
-    background-image: url(/IMAGENES/Nikeshort.png);
+    background-image: url(../IMAGENES/Nikeshort.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .suplente1{
-    background-image: url(/IMAGENES/smplente1.webp);
+    background-image: url(../IMAGENES/smplente1.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .suplente2{
-    background-image: url(/IMAGENES/nikeshort2.webp);
+    background-image: url(../IMAGENES/nikeshort2.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .retro1{
-    background-image: url(/IMAGENES/retrocamiseta1.webp);
+    background-image: url(../IMAGENES/retrocamiseta1.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .retro2{
-    background-image: url(/IMAGENES/Retropueba.jpg);
+    background-image: url(../IMAGENES/Retropueba.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }

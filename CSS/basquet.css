@@ -136,7 +136,7 @@ h1{
 }
 
 .uno{
-    background-image: url(/IMAGENES/basquet1.jpg);
+    background-image: url(../IMAGENES/basquet1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     grid-column: 1/3;
@@ -173,7 +173,7 @@ h1{
 }
 
 .seis{
-    background-image: url(/IMAGENES/fotobasquet.jpg);
+    background-image: url(../IMAGENES/fotobasquet.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     grid-column: 3/5;
@@ -191,7 +191,7 @@ h1{
 }
 
 .siete{
-    background-image: url(/IMAGENES/basquetfoto.jpg);
+    background-image: url(../IMAGENES/basquetfoto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid white;
