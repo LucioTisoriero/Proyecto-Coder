@@ -133,7 +133,7 @@ main{
 
 .uno{
     border: 3px solid black;
-    background-image: url(../IMAGENES/cancha.jpg);
+    background-image: url("../IMAGENES/cancha.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -173,7 +173,7 @@ main{
 
 .cinco{
     border: 3px solid black;
-    background-image: url(../IMAGENES/noticia2.jpg);
+    background-image: url("../IMAGENES/noticia2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -230,7 +230,7 @@ main{
 
 .Segundanoticia1{
     grid-row: 1/5;
-    background-image: url(../IMAGENES/SanlorenzoNoticias.jpg);
+    background-image: url("../IMAGENES/SanlorenzoNoticias.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border: 2px solid black;
@@ -247,7 +247,7 @@ main{
 }
 
 .segundanoticia2{
-    background-image: url(../IMAGENES/Segundasnoticias1.png);
+    background-image: url("../IMAGENES/Segundasnoticias1.png");
     background-size: cover;
     background-repeat: no-repeat;
     border: 2px solid black;
@@ -268,7 +268,7 @@ main{
 }
 
 .segundanoticia3{
-    background-image: url(../IMAGENES/Segundasnoticias2.jpg);
+    background-image: url("../IMAGENES/Segundasnoticias2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border: 2px solid black;
@@ -285,7 +285,7 @@ main{
 }
 
 .segundanoticia4{
-    background-image: url(../IMAGENES/segundasnoticias3.jpg);
+    background-image: url("../IMAGENES/segundasnoticias3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border: 2px solid black;
@@ -302,7 +302,7 @@ main{
 }
 
 .segundanoticias5{
-    background-image: url(../IMAGENES/segundasnoticias4.png);
+    background-image: url("../IMAGENES/segundasnoticias4.png");
     background-size: cover;
     background-repeat: no-repeat;
     border: 2px solid black;

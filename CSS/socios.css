@@ -115,7 +115,7 @@ main{
 }
 
 .tribuna{
-    background-image: url(../IMAGENES/Sociostribuna.jpg);
+    background-image: url("../IMAGENES/Sociostribuna.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
@@ -147,7 +147,7 @@ main{
 }
 
 .uno{
-    background-image: url(../IMAGENES/abonosocios.jpg);
+    background-image: url("../IMAGENES/abonosocios.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -162,7 +162,7 @@ main{
 }
 
 .dos{
-    background-image: url(../IMAGENES/socios3.jpg);
+    background-image: url("../IMAGENES/socios3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     transition: 3s;
@@ -178,21 +178,21 @@ main{
 }
 
 .dos:active{
-    background-image: url(../IMAGENES/socios4.jpg);
+    background-image: url("../IMAGENES/socios4.jpg");
     border: 1px solid white;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .tres{
-    background-image: url(../IMAGENES/socios1.jpg);
+    background-image: url("../IMAGENES/socios1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     transition: 5s;
 }
 
 .tres:active{
-    background-image: url(../IMAGENES/socios5.jpg);
+    background-image: url("../IMAGENES/socios5.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid white;
@@ -208,7 +208,7 @@ main{
 }
 
 .cuatro{
-    background-image: url(../IMAGENES/socios.hinchas.jpg);
+    background-image: url("../IMAGENES/socios.hinchas.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }

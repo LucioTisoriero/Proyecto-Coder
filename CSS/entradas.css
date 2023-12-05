@@ -121,7 +121,7 @@ main{
 
 .seccion1{
     padding-top: 100px;
-    background-image: url(../IMAGENES/entrada1.jpg);
+    background-image: url("../IMAGENES/entrada1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
