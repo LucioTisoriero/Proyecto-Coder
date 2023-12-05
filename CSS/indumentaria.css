@@ -38,6 +38,11 @@ header nav {
     background-color: rgb(22, 56, 86);    
 }
 
+.noticias:hover{
+    background-color: rgb(3, 122, 163);
+    border: 1px solid white;
+}
+
 .socios{
     margin-right: 50px;
     padding: 10px;
@@ -47,6 +52,11 @@ header nav {
     border-left: 1px solid white;
     border-radius: 10px;
     background-color: rgb(22, 56, 86)
+}
+
+.socios:hover{
+    background-color: rgb(3, 122, 163);
+    border: 1px solid white;
 }
 
 .basquet{
@@ -60,6 +70,11 @@ header nav {
     background-color: rgb(22, 56, 86)
 }
 
+.basquet:hover{
+    background-color: rgb(3, 122, 163);
+    border: 1px solid white;
+}
+
 .inicio{
     margin-right: 50px;
     padding: 10px;
@@ -71,6 +86,11 @@ header nav {
     background-color: rgb(22, 56, 86)
 }
 
+.inicio:hover{
+    background-color: rgb(3, 122, 163);
+    border: 1px solid white;
+}
+
 .entradas{
     margin-right: 50px;
     padding: 10px;
@@ -80,6 +100,11 @@ header nav {
     border-left: 1px solid white;
     border-radius: 10px;
     background-color: rgb(22, 56, 86)
+}
+
+.entradas:hover{
+    background-color: rgb(3, 122, 163);
+    border: 1px solid white;
 }
 
 a{
@@ -103,7 +128,6 @@ main{
 
 .card-text{
     color: black;
-    
 }
 
 .indumentaria{
@@ -121,23 +145,58 @@ main{
 }
 
 main div{
-    border: 3px solid black;
     margin: 20px;
-    padding-bottom: 20px;
+}
+
+.indumentaria div:hover{
+    border: 3px solid black;
 }
 
 main div p{
-    border-bottom: 5px solid black;
-    padding-left: 150px;
-    color: white;
+    padding-left: 180px;
+    color: black;
     font-size: small;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main div img{
-    width: 100%;
-    height: 100%;
-    padding: 5px;
+main div p:hover{
+    border-bottom: 5px solid black;
+}
+
+.titular1{
+    background-image: url(/IMAGENES/titular1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titular2{
+    background-image: url(/IMAGENES/Nikeshort.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.suplente1{
+    background-image: url(/IMAGENES/smplente1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.suplente2{
+    background-image: url(/IMAGENES/nikeshort2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.retro1{
+    background-image: url(/IMAGENES/retrocamiseta1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.retro2{
+    background-image: url(/IMAGENES/Retropueba.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .banner2{
@@ -162,8 +221,7 @@ footer{
 .bannertres{
     height: 100%;
     width: 400px;
-    margin: 40px;
-    
+    margin: 40px; 
 }
 
 .tienda{
